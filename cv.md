@@ -3,12 +3,12 @@
 # Andrey Golovachev
 
 ## Contact information:
-|||
-| ------------- | ---------------------- |
-| **Phone:**    | +7 (930) 132-20-70     |
-| **E-mail:**   | artmagaziine@gmail.com |
-| **Telegram:** | @moonzaki              |
-| **Discord**   | moonzaki#2167          |   
+
+**Phone:** +7 (930) 132-20-70
+**E-mail:** artmagaziine@gmail.com
+**Telegram:** @moonzaki
+**Discord** moonzaki#2167   
+
 ---
 
 ## About myself:
@@ -26,7 +26,9 @@ That is why I decided to become a frontend developer.
   + Curiosity
   + Perfectionism
   + Diligence
+
 ---
+
 ## Skills:
 
 - HTML, CSS
