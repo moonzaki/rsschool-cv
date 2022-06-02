@@ -1,7 +1,7 @@
 ## [rsschool-cv]() 
 
 # Andrey Golovachev
-[My photo](/img/main.jpg)
+![My photo](/img/main.jpg)
 ## Contact information:
 
 **Phone:** +7 (930) 132-20-70  
