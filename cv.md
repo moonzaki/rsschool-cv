@@ -1,14 +1,16 @@
 # [rsschool-cv]() 
-----
+
 # Andrey Golovachev
----
-### Contact information
 
-**Phone:** +7 (930) 132-20-70
-**E-mail:** artmagaziine@gmail.com
-**Telegram:** @moonzaki
+## Contact information:
+|||
+| ------------- | ---------------------- |
+| **Phone:**    | +7 (930) 132-20-70     |
+| **E-mail:**   | artmagaziine@gmail.com |
+| **Telegram:** | @moonzaki              |
+| **Discord**   | moonzaki#2167          |   
 
----
+
 
 
 ### About myself:
@@ -26,7 +28,7 @@ That is why I decided to become a frontend developer.
   + Curiosity
   + Perfectionism
   + Diligence
----
+
 ### Skills:
 
 - HTML, CSS
@@ -34,7 +36,7 @@ That is why I decided to become a frontend developer.
 - Git, GitHub
 - VS Code
 - Rest API
----
+
 ### Code example:
 ##### Are they the "same" KATA from CODEWARS:
 *Given two arrays a and b write a function comp(a, b) (orcompSame(a, b)) that checks whether the two arrays have the "same" elements, with the same multiplicities (the multiplicity of a member is the number of times it appears). "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.*
@@ -52,7 +54,7 @@ That is why I decided to become a frontend developer.
     }
 ```
 
----
+
 ### Courses:
 
 - ##### Stepik:
@@ -66,8 +68,8 @@ That is why I decided to become a frontend developer.
     - [*Manual on learnjavascript.ru*](https://learnjavascript.ru) (in progress...)
 - ##### RS Schools:
     - [*«JavaScript/Front-end. Stage 0»*](https://rs.school/js-stage0/) (in progress...)
----
 
-###Languages:
+
+### Languages:
 - **Russian** - native speaker
 - **English** - A2 (B1 in process…) 
