@@ -57,17 +57,19 @@ That is why I decided to become a frontend developer.
 ## Courses:
 
 - **Stepik:**
-    - [*JavaScript. Программирование от основ до веб-приложений(+Vue.js)*](https://stepik.org/course/53182/promo#toc) **-** 
-        - [_**Certificate**_](https://stepik.org/cert/1510625) 
-    - [*Веб-разработка для начинающих: HTML и CSS*](https://stepik.org/course/38218/promo)
-        - [_**Certificate**_](https://stepik.org/cert/248613) 
+  - [*JavaScript. Программирование от основ до веб-приложений(+Vue.js)*](https://stepik.org/course/53182/promo#toc) 
+    - [_**Certificate**_](https://stepik.org/cert/1510625) 
+  - [*Веб-разработка для начинающих: HTML и CSS*](https://stepik.org/course/38218/promo)
+    - [_**Certificate**_](https://stepik.org/cert/248613) 
 - **Udemy:**
-    - [*Полный курс по JavaScript + React*](https://www.udemy.com/course/javascript_full/) (in progress...)
+  - [*Полный курс по JavaScript + React*](https://www.udemy.com/course/javascript_full/) (in progress...)
 -  **JavaScript:**
-    - [*Manual on learnjavascript.ru*](https://learnjavascript.ru) (in progress...)
+   - [*Manual on learnjavascript.ru*](https://learnjavascript.ru) (in progress...)
 - **RS Schools:**
-    - [*«JavaScript/Front-end. Stage 0»*](https://rs.school/js-stage0/) (in progress...)
+  - [*«JavaScript/Front-end. Stage 0»*](https://rs.school/js-stage0/) (in progress...)
+
 ---
+
 ## Languages:
 - **Russian** - native speaker
-- **English** - A2 (B1 in process…) 
+- **English** - A2 (B1 in process…)  
