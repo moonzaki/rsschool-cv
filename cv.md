@@ -4,10 +4,10 @@
 
 ## Contact information:
 
-**Phone:** +7 (930) 132-20-70
-**E-mail:** artmagaziine@gmail.com
-**Telegram:** @moonzaki
-**Discord** moonzaki#2167   
+**Phone:** +7 (930) 132-20-70  
+**E-mail:** artmagaziine@gmail.com  
+**Telegram:** @moonzaki  
+**Discord** moonzaki#2167
 
 ---
 
