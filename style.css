@@ -11,17 +11,13 @@ body{
 
 }
 section{
-    /* display: flex; */
     width: 100%;
-    /* padding: 20px; */
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: 200;
-    /* border: 1px solid red; */
 }
 .section-title{
-    /* text-align: center; */
-    text-indent: 1em; /* Отступ первой строки */
+    text-indent: 1em;
     text-align: justify;
     font-family: Roboto, sans-serif;
     font-weight: 600;
@@ -37,7 +33,6 @@ section{
     max-width: 1100px; 
     margin: 0 auto; 
     display: flex;
-    /* border: 1px solid red; */
     justify-content: center;
 }
 /* HEADER */
@@ -105,17 +100,15 @@ section{
     font-size: 18px;
     font-weight: 300;
     line-height: 2;
-    color: #4d2323;
     display: block;
     margin: 0 1em 0 1em;
-    border: 5px solid rgb(235, 194, 12);
-    border-radius: 20px;
+    border: 2px dotted rgb(235, 194, 12);
     padding: 20px;
-    background-color:#2c2c2cc7;
+    background-color:#343434e8;
     color: #fff;
 }
 .menu-contact{
-    margin: 1em 1em 0 1em;
+    margin: 1em 1em 0 1.7em;
 }
 .menu-contact li{
     list-style: square;
@@ -166,7 +159,10 @@ section{
 }
 /* FOOTER */
 
-
+.f-cont{
+    background-color: rgb(239 234 229 / 42%);
+    box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 10%);
+}
 
 .last-word{
     color: rgb(235, 194, 12);
