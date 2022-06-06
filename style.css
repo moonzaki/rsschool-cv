@@ -1,3 +1,117 @@
-h1 {
-    color:black;
+/* GENERAL */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0 auto;
+
+}
+section{
+    /* display: flex; */
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.section-title{
+    /* text-align: center; */
+    text-indent: 1em; /* Отступ первой строки */
+    text-align: justify;
+}
+.container{
+    max-width: 1440px; 
+    margin: 0 auto; 
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+/* HEADER */
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* MAIN */
+/* .main{
+    margin-bottom: auto;
+} */
+.left{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 75%;
+    flex-wrap: wrap;
+}
+.title {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #221616;
+    word-spacing: 10px;
+    line-height: 50px;
+}
+
+.subtitle{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+.right{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+.img-cv{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .7);
+    transition: .3s;
+    padding: 2px;
+}
+.image-profile{
+    /* padding: 20px; */
+    text-align: center;
+}
+/* FOOTER */
+
+
+
+.last-word{
+    color: rgb(235, 194, 12);
+}
+
+
+/* Media */
+@media (max-width: 900px){
+    .container{
+        /* border: 1px solid red; */
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .left, .right {
+        width: 100%;
+    }
+    .img-cv{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, .7);
+        transition: .3s;
+        padding: 2px;
+    }
 }
