@@ -13,16 +13,22 @@
 <body>
 <header class="header">
     <div class="container header-container">
+        <div class="nav-header">
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
         <nav class="nav">
             <ul class="nav-list">
-                <li class="n-item"><a href="#contacts">Contacts</a></li>
-                <li class="n-item"><a href="#summary">Summary</a></li>
-                <li class="n-item"><a href="#code">Code</a></li>
-                <li class="n-item"><a href="#skills">Skills</a></li>
-                <li class="n-item"><a href="#courses">Courses</a></li>
-                <li class="n-item"><a href="#language">Language</a></li>
+                <li class="n-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                <li class="n-item"><a class="nav-link" href="#summary">Summary</a></li>
+                <li class="n-item"><a class="nav-link" href="#code">Code</a></li>
+                <li class="n-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="n-item"><a class="nav-link" href="#courses">Courses</a></li>
+                <li class="n-item"><a class="nav-link" href="#language">Language</a></li>
             </ul>
         </nav>
+
     </div>
 </header>
 <main class="main">
@@ -62,14 +68,14 @@
                     <h2 class="section-title">Code</h2>
                     <pre>
                         <code class="language-javascript">
-<span class="js-type">let</span> <span class="js-atr">a</span> = <span class="js-number-type">10</span>;
+<span class="js-type">let</span> <span class="js-atr">a</span> = 10;
 <span class="js-type">let</span> <span class="js-atr">arr</span> = <span class="js-symbols">[ ]</span>;<br/>
 <span class="js-type">function</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>) {
-    <span class="js-keyword">if </span>(<span class="js-atr">a</span> == <span class="js-number">0</span>) {
-    <span class="js-keyword">return</span> <span class="js-number">1</span>;
+    <span class="js-keyword">if </span>(<span class="js-atr">a</span> == 0) {
+    <span class="js-keyword">return</span> 1;
     }
     <span class="js-atr">arr</span><span class="js-name">.push</span>(<span class="js-atr">a</span>);
-    <span class="js-keyword">return</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>-<span class="js-number">1</span>);
+    <span class="js-keyword">return</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>-1);
 }
 <span class="js-name">rec</span>(<span class="js-atr">a</span>);
                         </code>
@@ -102,6 +108,7 @@
     </div>
 </main>
 <script src="index.js"></script>
+<script src="https://kit.fontawesome.com/cc01339aab.js" crossorigin="anonymous"></script>
 <footer class="footer">
     <div class="container footer-container">
         <p class="footer-text">text</p>
