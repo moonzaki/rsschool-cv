@@ -35,14 +35,11 @@
                 </section>
             </div>
             <div class="avatar-prof">
-            
                     <img class="av-image" src="/img/img_avatar.jpg" alt="Andrey Golovachev">
-           
             </div> 
         </div>
         <div class="main-container">
             <div class="left-side">
-            
                 <section id="contacts">
                     <h2 class="section-title">Contacts</h2>
                     <ul class="contact-list">
@@ -63,34 +60,21 @@
                 </section>
                 <section id="code">
                     <h2 class="section-title">Code</h2>
-                    <code class="js-codewars">
-                        <span class="js-keyword">function</span>
-                    
-                        <span class="js-title-function">comp</span>
-                        (
-                        <span class="js-parameters">array1</span>
-                        , <span class="js-parameters">array2</span>
-                        ){
-                        <br>  
-                        <span class="js-keyword">if</span>
-                        (
-                        <span class="js-parameters">array1</span> == 
-                        <span class="js-type">null</span> ||
-                        
-                        <span class="js-parameters">array2</span> == 
-                        <span class="js-type">null</span>){
-                        <br>
-                        <span class="js-keyword">return false;
-                            } else if (array1 == [] || array2 == []){
-                            return false;
-                            } else {
-                            let sortAr = arr => arr.<span class="js-method-name">sort</span>((a, b) => a - b);
-                            return JSON.stringify(sortAr(array1).map(el => el *= el)) !==  JSON.stringify(sortAr(array2)) ? false : true;
-                            }
-                        }
-                    </code>
+                    <pre>
+                        <code class="language-javascript">
+<span class="js-type">let</span> <span class="js-atr">a</span> = <span class="js-number-type">10</span>;
+<span class="js-type">let</span> <span class="js-atr">arr</span> = <span class="js-symbols">[ ]</span>;<br/>
+<span class="js-type">function</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>) {
+    <span class="js-keyword">if </span>(<span class="js-atr">a</span> == <span class="js-number">0</span>) {
+    <span class="js-keyword">return</span> <span class="js-number">1</span>;
+    }
+    <span class="js-atr">arr</span><span class="js-name">.push</span>(<span class="js-atr">a</span>);
+    <span class="js-keyword">return</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>-<span class="js-number">1</span>);
+}
+<span class="js-name">rec</span>(<span class="js-atr">a</span>);
+                        </code>
+                    </pre>
                 </section>
-                
             </div>
             <div class="right-side">
                 <section id="courses">

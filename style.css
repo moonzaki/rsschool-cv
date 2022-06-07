@@ -23,6 +23,7 @@ section{
 }
 .section-text{
     text-indent: 1em;
+    font-size: 20px;
 }
 /* -----  END GENERAL ----- */
 
@@ -82,8 +83,6 @@ section{
     text-align: right;
     text-transform: uppercase;
     box-shadow: 28px 2px 0px -25px rgb(41 41 41);
-    /* background-color: #ed640305;
-    box-shadow: 20px 0 25px -30px rgb(41 41 41); */
 }
 .profile-title{
     font-weight: 700;
@@ -117,9 +116,6 @@ section{
     height: 200px;
 
 }
-.avatar-image{
-    margin: 0 53px 0 53px;
-}
 /*LEFT*/
 .left-side{
     display: flex;
@@ -128,10 +124,11 @@ section{
     width: 70%;
     padding: 20px;
     box-shadow: 15px 0px 25px -25px rgb(41 41 41);
-    background-color: #004eff0f;
-    /* background-color: #ed640305; */
+    background-color: #0000000f;
 }
-
+.contact-list{
+    font-size: 20px;
+}
 /*RIGHT*/
 .right-side{
     display: flex;
@@ -144,6 +141,8 @@ section{
 .skills-list, .language-list{
     text-indent: 1em;
     margin-left: 20%;
+    font-size: 20px;
+    list-style: square;
 }
 /* ----- END MAIN ----- */
 
@@ -169,8 +168,21 @@ section{
     .main-container{
         flex-wrap: wrap;
     }
+    .section-text{
+        font-size: 16px;
+    }
+    .contact-list{
+        font-size: 16px;
+    }
+    .skills-list{
+        font-size: 16px;
+    }
+    .language-list{
+        font-size: 16px;
+    }
     .left-side{
         width: 100%;
+        padding: 0;
     }
     .right-side{
         width: 100%;
@@ -188,12 +200,17 @@ section{
     .section-title{
         margin-left: 0%;
         text-align: center;
+        font-size: 15px;
     }
     .avatar-prof{
         padding: 22px 20px 20px 20px;
     }
-    .center-title{
-            width: 85%;
+    .section-text{
+        margin: 0 1em 0 1em;
+    }
+    .av-image{
+        width: 100px;
+        height: 100px;;
     }
 }
 @media (max-width: 500px){
@@ -201,32 +218,59 @@ section{
         font-weight: 700;
         font-size: 20px;
     }
+    .section-text{
+        font-size: 13px;
+    }
+    .contact-list{
+        font-size: 13px;
+    }
+    .skills-list{
+        font-size: 13px;
+    }
+    .language-list{
+        font-size: 13px;
+    }
 }
 /* ----- END MEDIA ----- */
-
-
-.js-codewars{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 2;
-    display: block;
-    margin: 0 1em 0 1em;
-    box-shadow: -5px 0px 0px 0px;
-    padding: 20px;
-    background-color: #fffefc;
+pre{
+    width: 100%;
+    padding-left: 0;
+    white-space: normal;
+    display: flex;
+    justify-content: center;
 }
+code{
+    white-space: pre-wrap;
+    display: block;
+}
+
+.language-javascript{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 1em 0 1em;
+    box-shadow: 0px 0px 5px 2px #ff8d0ac9;
+    padding: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    background-color: #ffffff;
+} 
 /* js code style*/
-.js-title-function, .js-method-name{
-    color: #78bb65;
+.js-name{
+    color: #ff2323;
 }
 .js-keyword{
     color: #b45ea4;
 }
-.js-parameters{
-    color: #e7ce56;
+.js-atr{
+    color: #83c6fd;
+}
+.js-number{
+    color:#a3e677;
 }
 .js-type{
-    color:rgb(8, 53, 255)
+    color:rgb(52, 150, 255);
+}
+.js-symbols{
+    color:#ffae00;
 }
 /* end js code style */
