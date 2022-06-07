@@ -12,7 +12,6 @@ body{
 .container{
     max-width: 1100px;
     margin: 0 auto;
-
 }
 section{
     width: 100%;
@@ -26,7 +25,6 @@ section{
     font-size: 20px;
 }
 /* -----  END GENERAL ----- */
-
 /* ----- HEADER ----- */
 .header{
     font-family: 'Roboto', sans-serif;
@@ -56,10 +54,7 @@ section{
     color: black;
     font-weight: 700;
 }
-
 /* ----- END HEADER ----- */
-
-
 /* ----- MAIN ----- */
 .main{
     font-family: 'Roboto', sans-serif;;
@@ -116,7 +111,6 @@ section{
     transition: .3s;
     width: 200px;
     height: 200px;
-
 }
 /*LEFT*/
 .left-side{
@@ -147,24 +141,41 @@ section{
     list-style: square;
 }
 /* ----- END MAIN ----- */
-
-
 /* ----- FOOTER ----- */
 .footer-text{
     margin-bottom: 0;
 }
 .footer-container{
     box-shadow: 0 7px 10px 5px #29292945;
-    background-color: #ffe9a90a;
+    /* background-color: #ffe9a90a; */
+    background-color: #0000000f;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rss{
+    background-image: url(img/rs_school_js.svg);
+    width: 120px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.fa-brands{
+    font-size: 50px;
+    color: #404040;
+    padding: 20px;
+}
+.creat-year{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
 }
 /* ----- END FOOTER ----- */
-
 /* FOR SCRIPT*/
 .last-word, .section-title-word{
     color: rgb(255, 184, 31);
 }
 /*END FOR SCRIPT*/
-
 /* ----- MEDIA ----- */
 @media (min-width: 900px){
     .nav-header{
@@ -173,17 +184,13 @@ section{
     .n-item{
         display: block;
     }
-
 }
 @media (max-width: 900px){
-
     /* MENU */
     .nav-header{
         justify-content: flex-end;
         display: flex;
         font-family: 'Roboto', sans-serif;
-
-        
     }
     .nav{
         text-align: center;
@@ -197,7 +204,6 @@ section{
         flex-direction: column;
         padding: 10px;
     }
-
     .nav-list-toggle{
         align-items: center;
         flex-wrap: wrap;
@@ -206,7 +212,6 @@ section{
         flex-direction: column;
         padding: 0;
     }
-
     .nav-show{
         display: block;
     }
@@ -215,7 +220,6 @@ section{
         flex-direction: column;
         padding: 0;
     }
-
     /* MENU */
     .main-container{
         flex-wrap: wrap;
@@ -283,8 +287,17 @@ section{
     .language-list{
         font-size: 13px;
     }
+    .rss{
+        width: 80px;
+        height: 27px;
+    }
+    .fa-brands{
+        font-size: 40px;
+    }
 }
 /* ----- END MEDIA ----- */
+
+/* js code style*/
 pre{
     width: 100%;
     padding-left: 0;
@@ -307,7 +320,6 @@ code{
     word-spacing: 5px;
     background-color: #ffffff;
 } 
-/* js code style*/
 .js-name{
     color: #ff2323;
 }
