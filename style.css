@@ -162,14 +162,21 @@ section {
     box-shadow: 15px 0px 25px -25px #292929;
 }
 
+.projects-list{
+    display: flex;
+    justify-content: center;
+}
+
 .right-side {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 30%;
     padding: 20px;
+    
     text-indent: 5em;
 }
+
 .courses-list,
 .skills-list, 
 .language-list {
@@ -179,6 +186,13 @@ section {
 
 .courses-list-title{
     font-weight: bold;
+}
+
+.projects-link{
+    font-weight: bold;
+    text-decoration: none;
+
+    color: #000000;
 }
 
 .courses-list-link{
