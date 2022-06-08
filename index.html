@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<header class="header">
+    <div class="container header-container">
+        <div class="nav-header">
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="n-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                <li class="n-item"><a class="nav-link" href="#summary">Summary</a></li>
+                <li class="n-item"><a class="nav-link" href="#code">Code</a></li>
+                <li class="n-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="n-item"><a class="nav-link" href="#courses">Courses</a></li>
+                <li class="n-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="n-item"><a class="nav-link" href="#language">Language</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+<main class="main">
+    <div class="container main-cont">
+        <div class="center-container">
+            <div class="center-title">
+                <section class="section-profile" id="title">
+                    <h1 class="profile-title">Andrey <br>Golovachev</h1>
+                    <h2 class="profile-profession">Junior front-end developer</h2>
+                </section>
+            </div>
+            <div class="avatar-prof">
+                    <img class="av-image" src="/img/img_avatar.jpg" alt="Andrey Golovachev" title="Andrey Golovachev" width="200" height="200">
+            </div> 
+        </div>
+        <div class="main-container">
+            <div class="left-side">
+                <section id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="contact-list fa-ul">
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-mobile"></i>
+                            </span>
+                            <p class="contact-list-text">Phone: <a class="contact-list-link" href="tel:+79301322070">+7 (930) 132-20-70</a></p>
+                        </li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <p class="contact-list-text">E-mail: <a class="contact-list-link" href="mailto:artmagaziine@gmail.com">artmagaziine@gmail.com</a></p>
+                        </li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-message"></i>
+                            </span>
+                            <p class="contact-list-text">Telegram: <a class="contact-list-link" href="https://telegram.me/moonzaki">@moonzaki</a></p>
+                        </li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-mobile"></i>
+                            </span>
+                            <p class="contact-list-text">Discord: <a class="contact-list-link" href=" https://discordapp.com/users/moonzaki#2167">moonzaki#2167</a></p>    
+                        </li>
+                    </ul>
+                </section>
+                <section id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p class="section-text">I am 29 years old, and for the last 7 years I have worked as a technical support lead for electronic document management (EDM) as part of 1C integration solutions, as well as API and SDK. Currently I work as a functional tester for a web application for bars and restaurants.</p>
+                        <br>
+                    <p class="section-text">Having plunged into the world of application development, I realized in which direction I want to develop. That is why I decided to become a frontend developer.</p>
+                </section>
+                <section id="code">
+                    <h2 class="section-title">Code example</h2>
+                    <pre>
+                        <code class="language-javascript">
+<span class="js-type">let</span> <span class="js-atr">a</span> = 10;
+<span class="js-type">let</span> <span class="js-atr">arr</span> = <span class="js-symbols">[ ]</span>;<br/>
+<span class="js-type">function</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>) {
+    <span class="js-keyword">if </span>(<span class="js-atr">a</span> == 0) {
+    <span class="js-keyword">return</span> 1;
+    }
+    <span class="js-atr">arr</span><span class="js-name">.push</span>(<span class="js-atr">a</span>);
+    <span class="js-keyword">return</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>-1);
+}
+<span class="js-name">rec</span>(<span class="js-atr">a</span>);
+                        </code>
+                    </pre>
+                </section>
+                <section id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="projects-list fa-ul">
+                        <li class="projects-list-item">
+                            <span class="fa-li">
+                                <i class="fas fa-folder-tree"></i>
+                            </span>
+                            <a class="projects-link" href="https://moonzaki.github.io/rsschool-cv/">CV</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="right-side">
+                <section id="courses">
+                    <h2 class="section-title">Courses</h2>
+                    <ul class="courses-list">
+                        <li>
+                            <p class="courses-list-title">Stepik</p>
+                            <a class="courses-list-link" target="_blank" href="https://stepik.org/course/53182/promo#toc">JavaScript. Programming from basics to web applications (+Vue.js)</a>
+                        </li>
+                        <li>
+                            <p class="courses-list-title">Stepik</p>
+                            <a class="courses-list-link" target="_blank" href="https://stepik.org/course/38218/promo">Web Development for Beginners: HTML & CSS</a>
+                        </li>
+                    </ul>
+                    <h2 class="section-subtitle">In progress:</h2>
+                    <ul class="courses-list">
+                        <li>
+                            <p class="courses-list-title">Udemy</p>
+                            <a class="courses-list-link" target="_blank" href="ttps://www.udemy.com/course/javascript_full/">The Complete JavaScript + React Course</a>
+                        </li>
+                        <li>
+                            <p class="courses-list-title">RS Schools:</p>
+                            <a class="courses-list-link" target="_blank" href="https://rs.school/js-stage0/">JavaScript/Front-end. Stage 0</a>
+                        </li>
+                        <li>
+                            <p class="courses-list-title">Learn javascript</p>
+                            <a class="courses-list-link" target="_blank" href="https://learnjavascript.ru">Manual on learnjavascript.ru</a>
+                        </li>
+                    </ul>
+                </section>
+                <section id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="skills-list">
+                        <li>HTML, CSS</li>
+                        <li>Javascript (Basick)</li>
+                        <li>Git, GitHub</li>
+                        <li>Rest API</li>
+                        <li>VS Code</li>
+                    </ul>
+                </section>
+                <section id="language">
+                    <h2 class="section-title">Language</h2>
+                    <ul class="language-list">
+                        <li>Russian: native</li>
+                        <li>English: A2</li>
+                    </ul>
+                </section>   
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container footer-container">
+        <a href="https://github.com/moonzaki" title="Moonzaki GitHub">
+           <i class="fa-brands fa-github"></i>
+        </a>
+        <div class="creat-year">
+            <p>© 2022</p>
+        </div>
+        <a class="rss" href="https://rs.school/js/"></a>      
+    </div>
+</footer>
+<script src="index.js"></script>
+<script src="https://kit.fontawesome.com/cc01339aab.js" crossorigin="anonymous"></script>
+</body>
+</html>
