@@ -22,13 +22,13 @@ section {
 }
 
 .section-title {
-    font-size: 30px;
+    font-size: 1.9em;
 
     text-transform: uppercase;
 }
 
 .section-subtitle {
-    font-size: 25px;
+    font-size: 1.5em;
 
     color: #ffb81f;
 }
@@ -75,6 +75,7 @@ section {
 
 .main {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: auto;
 }
 
 .main-cont {
@@ -227,7 +228,7 @@ section {
 .fa-brands {
     padding: 20px;
 
-    font-size: 50px;
+    font-size: 2.8em;
     color: #404040;
 }
 
@@ -239,6 +240,67 @@ section {
 .last-word, 
 .section-title-word {
     color: #ffb81f;
+}
+
+pre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0;
+
+    white-space: normal;
+}
+
+code {
+    display: block;
+
+    white-space: pre-wrap;
+}
+
+.language-javascript {
+    margin: 0 1em 0 1em;
+    padding: 20px;
+
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0px 0px 5px 2px #ff8d0ac9;
+} 
+
+.js-name {
+    color: #ffae00;
+}
+
+.js-str {
+    color: rgb(187, 255, 0);
+}
+
+.js-keyword {
+    color: #ba00ff;
+}
+
+.js-atr {
+    color: #ffae00;
+}
+
+.js-number {
+    color: #a3e677;
+}
+
+.js-cicle {
+    color: #9ebaff;
+}
+
+.js-type {
+    color: rgb(52, 150, 255);
+}
+
+.js-symbols {
+    color: #ffae00;
 }
 
 @media (min-width: 900px) {
@@ -267,7 +329,7 @@ section {
 
 @media (max-width: 900px) {
     html {
-        font-size: 16px;
+        font-size: 0.9em;
     }
 
     .nav-header {
@@ -380,12 +442,12 @@ section {
     .section-title {
         margin-left: 0%;
         
-        font-size: 15px;
+        font-size: 0.8em;
         text-align: center;
     }
 
     .section-subtitle {
-        font-size: 15px;
+        font-size: 0.9em;
     }
 
     .avatar-prof {
@@ -400,16 +462,20 @@ section {
         width: 100px;
         height: 100px;
     }
+
+    .language-javascript {
+        font-size: 1.1em;
+    }
 }
 
 @media (max-width: 500px) {
     html {
-        font-size: 13px;
+        font-size: 0.8em;
     }
 
     .profile-title {
         line-height: 25px;
-        font-size: 25px;
+        font-size: 1.5em;
         font-weight: 700;
     }
 
@@ -419,63 +485,16 @@ section {
     }
 
     .fa-brands {
-        font-size: 40px;
+        font-size: 2.2em;
     }
 
     .profile-profession {
         line-height: 25px;
-        font-size: 15px;
+        font-size: 0.9em;
+    }
+
+    .language-javascript {
+        font-size: 1.1em;
     }
 }
 
-pre {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-left: 0;
-
-    white-space: normal;
-}
-
-code {
-    display: block;
-
-    white-space: pre-wrap;
-}
-
-.language-javascript {
-    margin: 0 1em 0 1em;
-    padding: 20px;
-
-    font-size: 15px;
-    font-weight: 300;
-    letter-spacing: 3px;
-    word-spacing: 5px;
-
-    background-color: #ffffff;
-    box-shadow: 0px 0px 5px 2px #ff8d0ac9;
-} 
-
-.js-name {
-    color: #ff2323;
-}
-
-.js-keyword {
-    color: #b45ea4;
-}
-
-.js-atr {
-    color: #83c6fd;
-}
-
-.js-number {
-    color: #a3e677;
-}
-
-.js-type {
-    color: rgb(52, 150, 255);
-}
-
-.js-symbols {
-    color: #ffae00;
-}
