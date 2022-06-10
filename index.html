@@ -84,18 +84,30 @@
                 </section>
                 <section id="code">
                     <h2 class="section-title">Code example</h2>
+                    <div class="section-text">
+                    <p><b>Codewars:</b> <b>Build Tower</b></p>
+                    <p><i>Build a pyramid-shaped tower given a positive integer number of floors. A tower block is represented with "*" character.</i></p>
+                    </div>
                     <pre>
                         <code class="language-javascript">
-<span class="js-type">let</span> <span class="js-atr">a</span> = 10;
-<span class="js-type">let</span> <span class="js-atr">arr</span> = <span class="js-symbols">[ ]</span>;<br/>
-<span class="js-type">function</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>) {
-    <span class="js-keyword">if </span>(<span class="js-atr">a</span> == 0) {
-    <span class="js-keyword">return</span> 1;
+<span class="js-keyword">function</span> <span class="js-name">towerBuilder</span>(<span class="js-atr">n</span>) {
+    <span class="js-type">let</span> <span class="js-atr">t</span> = <span class="js-str">''</span>;
+    <span class="js-type">let</span> <span class="js-atr">a</span> = <span class="js-symbols">[]</span>;
+    <span class="js-keyword">for</span> (<span class="js-type">let</span> <span class="js-atr">i</span> = 0; <span class="js-cicle">i</span> &lt; <span class="">n</span>; <span class="">i</span>++) {
+        <span class="">for</span> (<span class="">let</span> <span class="js-atr">s</span> = 0; <span class="js-cicle">s</span> &lt; (<span class="js-circle">n</span> - (<span class="js-cicle">i</span> + 1)); <span class="js-cicle">s</span>++){
+            <span class="js-cicle">t</span> = <span class="js-cicle">t</span> + <span class="js-str">' '</span>;
+        }
+        <span class="js-keyword">for</span> (<span class="js-type">let</span> <span class="js-atr">j</span> = 0; <span class="js-cicle">j</span> &lt; (<span class="js-cicle">i</span> + 1) * 2 - 1; <span class="js-cicle">j</span>++){
+            <span class="js-cicle">t</span> = <span class="js-cicle">t</span> + <span class="js-str">'*'</span>;
+        }
+        <span class="js-keyword">for</span> (<span class="js-type">let</span> <span class="js-atr">s</span> = 0; <span class="js-cicle">s</span> &lt; (<span class="js-cicle">n</span> - (<span class="js-cicle">i</span> + 1)); <span class="js-cicle">s</span>++){
+            <span class="js-cicle">t</span> = <span class="js-cicle">t</span> + <span class="js-str">' '</span>;
+        }
+        <span class="js-cicle">a</span>.<span class="js-cicle">push</span>(<span class="js-cicle">t</span>);
+        <span class="js-cicle">t</span> = <span class="js-str">''</span>;
     }
-    <span class="js-atr">arr</span><span class="js-name">.push</span>(<span class="js-atr">a</span>);
-    <span class="js-keyword">return</span> <span class="js-name">rec</span>(<span class="js-atr">a</span>-1);
+    <span class="js-keyword">return</span> <span class="js-cicle">a</span>;
 }
-<span class="js-name">rec</span>(<span class="js-atr">a</span>);
                         </code>
                     </pre>
                 </section>
