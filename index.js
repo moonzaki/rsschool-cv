@@ -8,21 +8,20 @@ function changeColor(){
 changeColor();
 
 function toggleClass(){
-    let nav = document.querySelector('.nav'); 
     document.querySelector('.toggle').addEventListener('click', () => {
-        nav.classList.toggle('nav-show');
+        document.querySelector('.fa-solid').classList.toggle('fa-xmark');
+        document.querySelector('.nav').classList.toggle('nav-show');
     });
 }
 toggleClass();
 
 function closeNav(){
-    let nav = document.querySelector('.nav'); 
-    let li = document.querySelectorAll('.n-item');
-    li.forEach( el => {
+    document.querySelectorAll('.n-item').forEach( el => {
         el.addEventListener('click', () => {
             setTimeout(() => {
-            nav.classList.remove('nav-show');
-            }, 1000);
+                document.querySelector('.fa-solid').classList.remove('fa-xmark');
+                document.querySelector('.nav').classList.remove('nav-show');
+            }, 200);
         });
     });
 }
