@@ -13,6 +13,7 @@ body {
 
     background-image: url(img/bkd.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section {
@@ -408,7 +409,6 @@ code {
         visibility: visible;
         overflow: visible;
         background-color: #ffb81f;
-        /* background-color: #fffefc; */
         border-bottom: 1px solid #7a7a7a63;
         clip-path: unset;
         clip: unset;
